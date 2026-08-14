@@ -1,4 +1,4 @@
-const WHATSAPP_NUMBER='REPLACE_WITH_YOUR_WHATSAPP_NUMBER';
+const WHATSAPP_NUMBER='918856874068';
 const products=['Agarbatti','Dhup','Kapoor','Wati','Attar','Halad','Kunku','Ashtgandha','Vastramal'];
 function options(){return products.map(p=>`<option>${p}</option>`).join('')}
 function addProduct(){const box=document.getElementById('productRows');const row=document.createElement('div');row.className='product-row';row.innerHTML=`<div class="field"><label>Product</label><select name="product[]" required>${options()}</select></div><div class="field"><label>Quantity</label><input name="quantity[]" type="number" min="1" value="1" required></div><div class="field"><label>Price (₹)</label><input name="price[]" type="number" min="0" placeholder="Price"></div><button type="button" class="remove-product">Remove</button>`;box.appendChild(row)}
