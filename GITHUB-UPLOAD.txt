@@ -1,0 +1,17 @@
+IMPORTANT - GitHub Pages upload
+
+Upload ALL files and folders from this project, not just the HTML files.
+The repository root must contain:
+index.html
+about.html
+products.html
+gallery.html
+booking.html
+payment.html
+contact.html
+confirmation.html
+css/style.css
+js/script.js
+images/...
+
+If the site looks like plain text/HTML with no colors, the CSS folder was not uploaded or the CSS path is wrong. This version uses ./css/style.css.
